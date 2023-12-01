@@ -1,0 +1,16 @@
+{
+  "name": "app-cadastro",
+  "version": "1.0.0",
+  "description": "Página de cadastro para demonstração do docker compose",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos Leite",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.3",
+    "nodemon": "^3.0.2"
+  }
+}
