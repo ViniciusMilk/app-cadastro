@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    <h1>Cadastre-se</h1>
+    <form action="http://localhost:3000/" method="POST">
+      <p>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </p>
+      <p>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+      </p>
+      <p>
+        <button type="submit">Enviar</button>
+      </p>
+    </form>
+    <!-- Estilos CSS inline -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+    h1 {
+      text-align: center;
+      color: #333333;
+    }
+    form {
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #cccccc;
+      background-color: #ffffff;
+    }
+    label {
+      display: inline-block;
+      width: 100px;
+    }
+    input {
+      display: inline-block;
+      width: 250px;
+      margin-bottom: 10px;
+    }
+    button {
+      display: block;
+      width: 100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+  </body>
+</html>
